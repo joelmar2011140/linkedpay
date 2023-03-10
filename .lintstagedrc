@@ -1,5 +1,5 @@
 {
-  ".{ts|tsx}": [
+  ".tsx": [
     "yarn lint:fix",
     "git add "
   ]
