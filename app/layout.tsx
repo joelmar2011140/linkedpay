@@ -1,6 +1,8 @@
+import './globals.css'
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer } from 'react-toastify';
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import './globals.css'
 import { IRootComponent } from '../src/global.types'
 import Header from '../src/components/Header'
 import Footer from '../src/components/Footer'
@@ -21,6 +23,7 @@ export default function RootLayout({ children }: IRootComponent) {
           <Header />
           {children}
           <Footer />
+          <ToastContainer />
         </main>
       </body>
     </html>

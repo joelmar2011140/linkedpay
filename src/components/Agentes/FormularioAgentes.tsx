@@ -21,14 +21,56 @@ export default function FormularioAgentes() {
   }
 
   function handleEmail () {
-    // enviarEmail('tets', formulario.email, 'teste', 'agente')
-    // toast('Teste', { position: 'bottom-right', type: 'success' })
-    emailJs.send('service_en5h1ua', 'template_w25301o', { assunto: 'teste', mensagem: 'hdhdhd', receptor: 'dhdhd' }, 'zpsgcivB9G67hfXA0').then((sucesso) => {
-      console.log('Email enviado')
+    if (formulario.comerciante.length === 0) {
+      toast('Deve especificar se é comerciante', { position: 'top-right', type: 'error' })
+      setDisabled(true)
+      return
+    } else if (formulario.email.length === 0) {
+      toast('Forneça por favor o seu email', { position: 'top-right', type: 'error' })
+      setDisabled(true)
+      return
+    } else if (formulario.nome.length === 0) {
+      toast('Forneça por favor o seu nome', { position: 'top-right', type: 'error' })
+      setDisabled(true)
+      return
+    } else if (formulario.terminal.length === 0) {
+      toast('Deve especificar se já possui um terminal', { position: 'top-right', type: 'error' })
+      setDisabled(true)
+      return
+    } else if (formulario.provincia.length === 0) {
+      toast('Forneça por favor a sua província', { position: 'top-right', type: 'error' })
+      setDisabled(true)
+      return
+    } else if (formulario.municipio.length === 0) {
+      toast('Forneça por favor o seu município', { position: 'top-right', type: 'error' })
+      setDisabled(true)
+      return
+    } else if (formulario.telefone.length === 0) {
+      toast('Forneça por favor o seu numero de telefone', { position: 'top-right', type: 'error' })
+      setDisabled(true)
+      return
+    }
+    
+    emailJs.send('service_en5h1ua', 'template_y5h7a93', { nome: formulario.nome, email: formulario.email, telefone: formulario.telefone, provincia: formulario.provincia, municipio: formulario.municipio, comerciante: formulario.comerciante, terminal: formulario.terminal, receptor: 'mwangolemarinho@gmail.com' }, 'zpsgcivB9G67hfXA0').then((sucesso) => {
+      toast('Email enviado com sucesso, será respondido(a) brevemente.', { position: 'top-right', type: 'success' })
+      setFormulario({
+        comerciante: '',
+        email: '',
+        municipio: '',
+        nome: '',
+        provincia: '',
+        telefone: '',
+        terminal: ''
+      })
+      // info@linkedpay.co.ao <info@linkedpay.co.ao>;
+      setDisabled(false)
+      return
     }).catch((err) => {
-      console.error(err)
+      console.log(err)
+      toast('Não foi possível enviar este email, tente novamente', { position: 'top-right', type: 'error' })
     })
   }
+
 
   return (
     <div className=' w-full h-full p-4 flex flex-col items-center justify-center lg:justify-around'>
@@ -50,7 +92,7 @@ export default function FormularioAgentes() {
             <Input value={formulario.provincia} name='provincia' type='text' label='Província' onChange={(e: ChangeEvent<HTMLInputElement>) => handleChange('input', e)} />
             <Input name='municipio' type='text' value={formulario.municipio} label='Município' onChange={(e: ChangeEvent<HTMLInputElement>) => handleChange('input', e)} />
           </div>
-          <button onClick={handleEmail} className='w-full lg:w-1/2 mx-auto bg-blue-500 hover:bg-blue-700 text-white font-bold p-4 rounded focus:outline-none focus:shadow-outline'>Aplicar agora</button>
+          <button disabled={disabled} onClick={handleEmail} className='w-full lg:w-1/2 mx-auto bg-blue-500 hover:bg-blue-700 text-white font-bold p-4 rounded focus:outline-none focus:shadow-outline'>Aplicar agora</button>
         </div>
       </div>
       </div>
