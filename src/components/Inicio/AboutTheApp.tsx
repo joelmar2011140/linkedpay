@@ -8,8 +8,8 @@ export default function AboutTheApp() {
     {/* The App */}
     <div className="w-full h-full">
       <div className="flex p-6 mx-auto items-center justify-center w-full lg:w-[83%] flex-col-reverse lg:flex-row gap-8">
-        <div className="flex flex-col w-full lg:w-[50%] ">
-          <h1 className="text-2xl text-center lg:text-justify text-slate-700 font-semibold  mb-22  lg:text-4xl">A forma mais inteligente de pagar</h1>
+        <div className="flex flex-col gap-6 lg:gap-2 w-full lg:w-[50%] ">
+          <h1 className="text-xl text-center lg:text-justify text-slate-700 font-semibold  mb-22  lg:text-4xl">A forma mais inteligente de pagar</h1>
           <p className="text-justify text-base md:text-lg leading-relaxed">Enviar dinheiro é rápido e fácil na plataforma LPay (LinkedPay) e pode ganhar recompensas! Crie uma conta e comece a transaccionar em minutos a partir do seu telefone e desfrute da experiência.</p>
           <div className="flex justify-center lg:items-center lg:justify-start mt-6">
             <a

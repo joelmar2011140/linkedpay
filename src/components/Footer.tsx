@@ -14,7 +14,7 @@ export default function Footer() {
       </div>
       <div className="mx-auto flex flex-col p-4 w-full lg:w-[83%]">
         <div className="mx-auto p-4  content-center w-full lg:w-[95%] gap-6 grid grid-cols-1 lg:grid-cols-5">
-          <div className="w-full text-center lg:text-justify text-[#f3f4fe] p-4 flex flex-col gap-4 items-center justify-start">
+          <div className="w-full text-center lg:text-justify text-[#f3f4fe] p-4 flex flex-col gap-8 lg:gap-4 items-center justify-start">
               <div className="max-w-[100px]  mx-auto lg:mx-0">
                 <Image
                   src="/images/logo_white.png"
@@ -27,7 +27,7 @@ export default function Footer() {
               <p className="text-start font-semibold">
                 Oferecemos aos nossos clientes o mais amplo nível de opções e acesso financeiro.
               </p>
-              <div className="flex -mx-3">
+              <div className="flex -mx-3 ">
                 <Link href='https://www.facebook.com/linkedpay' target='_blank'
                   className="px-3 text-[#dddddd] hover:text-white"
                 >
@@ -95,7 +95,6 @@ export default function Footer() {
                 </Link>
               </div>
           </div>
-
           <div className="w-full text-center lg:text-justify text-[#f3f4fe] p-4 flex flex-col gap-2 items-start justify-start">
              <h1 className="text-white text-base lg:text-xl">Início</h1>
              <Link href='/inicio/app' className="text-white font-semibold">LinkedPay App</Link>

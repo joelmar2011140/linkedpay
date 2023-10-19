@@ -5,7 +5,7 @@ export default function Poupancas() {
   return (
     <FadeRight>
       <div className=' w-full h-full p-4 flex flex-col items-center justify-center lg:justify-around'>
-        <div className="mx-auto flex items-center w-full lg:w-[83%] justify-center flex-col lg:flex-row gap-8 p-4">
+        <div className="mx-auto flex items-center w-full lg:w-[83%] justify-center flex-col lg:flex-row gap-16 lg:gap-8 p-4">
           <div className="w-full gap-12 h-full lg:w-[50%] lg:h-[980px] p-4 text-center lg:text-justify lg:p-16 font-semibold bg-gray-100 rounded-lg items-center justify-center lg:items-start lg:justify-start">
             <h1 className="text-xl mb-12 lg:text-2xl lg:text-start text-center">Poupe enquanto gasta com as Recompensas</h1>
             <span className="text-start">O cliente médio da LinkedPay poupa mais de 10.000KZ por ano simplesmente ao mudar os seus pagamentos para a plataforma LPay. Adira hoje e comece a ganhar à medida que gasta.</span>

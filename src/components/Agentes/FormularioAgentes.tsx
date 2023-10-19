@@ -34,7 +34,7 @@ export default function FormularioAgentes() {
     <div className=' w-full h-full p-4 flex flex-col items-center justify-center lg:justify-around'>
     <div className="mx-auto flex items-center  w-full lg:w-[83%] justify-center flex-col lg:justify-start lg:items-start gap-8 p-8">
     <div className='w-full lg:w-11/12 h-auto p-8  shadow-lg border rounded-lg lg:text-justify text-center mx-auto flex flex-col gap-6 justify-center items-center mb-12'>
-        <h1 className="text-2xl text-slate-700 font-bold mb-4 ">Faça dinheiro com a LinkedPay</h1>
+        <h1 className="text-xl lg:text-2xl text-slate-700 font-bold mb-4 ">Faça dinheiro com a LinkedPay</h1>
         <p className="text-base text-justify">Preencha o formulário abaixo e um dos membros da nossa equipa entrará em contacto consigo o mais rapidamente possível</p>
         <div className='w-full p-6 lg:p-2 flex flex-col gap-6 mb-12 items-start justify-start'>
           <Input name='nome' type='text' value={formulario.nome} label='Nome Completo' onChange={(e: ChangeEvent<HTMLInputElement>) => handleChange('input', e)} />

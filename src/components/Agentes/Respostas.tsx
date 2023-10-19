@@ -8,7 +8,7 @@ export default function Respostas() {
     <FadeRight>
       <div className=' w-full mb-16 h-full p-4 flex flex-col items-center justify-center lg:justify-around'>
         <div className="mx-auto flex items-center bg-gray-100 w-full lg:w-[83%] justify-center flex-col lg:justify-center lg:items-center gap-8 p-8">
-          <h1 className='text-gray-600 text-base lg:text-xl text-center font-semibold'>Obtenha todas as Respostas Aqui.</h1>
+          <h1 className='text-gray-600 text-xl lg:text-2xl text-center font-semibold'>Obtenha todas as Respostas Aqui.</h1>
           <span>Respostas às perguntas que acreditamos que possa ter em mente.</span>
           <div className='w-full lg:w-[50%] p-4'>
           <Disclosure>

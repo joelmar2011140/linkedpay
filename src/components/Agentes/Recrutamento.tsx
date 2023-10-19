@@ -6,9 +6,9 @@ export default function Recrutamento() {
     <FadeRight>
       <div className=' w-full h-full p-4 flex flex-col items-center justify-center lg:justify-around'>
       <div className="mx-auto flex items-center bg-gray-100 w-full lg:w-[83%] justify-center flex-col lg:justify-start lg:items-start gap-8 p-8">
-        <h1 className='text-gray-600 text-base lg:text-4xl font-semibold'>Torne-se um Agente da LinkedPay</h1>
+        <h1 className='text-gray-600 text-xl lg:text-start text-center lg:text-4xl font-semibold'>Torne-se um Agente da LinkedPay</h1>
         <span className='text-justify'>Pode registar-se na aplicação LPay ou clicar no botão para preencher um formulário de pedido de chamada de volta.</span>
-        <div className='w-full h-full grid gap-8 grid-cols-1 lg:grid-cols-2'>
+        <div className='w-full h-full grid gap-16 lg:gap-16 grid-cols-1 lg:grid-cols-2'>
           <div className='p-8 bg-white rounded-lg flex flex-col items-start justify-start text-violet-900'>
             <div className="h-20 w-20 flex items-center justify-center">
               <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="blueviolet" className="bi bi-cash" viewBox="0 0 16 16">

@@ -18,7 +18,7 @@ export default function SemCustos() {
         </div>
 
         <div className=" flex gap-4 flex-col items-start justify-center w-full lg:w-[50%]">
-          <h1 className="text-2xl lg:text-start text-center lg:text-4xl text-slate-700 font-bold mb-4 leading-normal">Transferir dinheiro sem custos</h1>
+          <h1 className="text-xl gap-4 lg:gap-2 lg:text-start text-center lg:text-4xl text-slate-700 font-bold mb-4 leading-normal">Transferir dinheiro sem custos</h1>
           <p className="text-justify text-base lg:text-lg lg:text-justify leading-relaxed">Olá, transferências rápidas e gratuitas! Desfrute de mais de 90 transferências bancárias gratuitas por mês na LPay. O envio para outros utilizadores da LPay é sempre gratuito.</p>
         </div>
 

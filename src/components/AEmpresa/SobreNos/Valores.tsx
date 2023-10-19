@@ -6,10 +6,10 @@ export default function Valores() {
     <FadeRight>
     <div className=' w-full h-full p-4 flex flex-col items-center justify-center lg:justify-around'>
     <div className="mx-auto mb-24 flex items-center bg-gray-100 w-full lg:w-[83%] justify-center flex-col lg:justify-start lg:items-start gap-8 p-8">
-      <h1 className='text-gray-600 text-base lg:text-4xl font-semibold'>Nossos valores</h1>
+      <h1 className='text-gray-600 text-xl lg:text-4xl font-semibold'>Nossos valores</h1>
       
       <div className='w-full h-full grid gap-8 grid-cols-1 lg:grid-cols-2'>
-        <div className='p-8 gap-4 bg-white rounded-lg flex flex-col items-start justify-start text-violet-900'>
+        <div className='p-8 gap-16 lg:gap-4 bg-white rounded-lg flex flex-col items-start justify-start text-violet-900'>
         <div className="h-20 w-20 flex items-center justify-center">
             <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" className="bi bi-people-fill" viewBox="0 0 16 16">
               <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7Zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm-5.784 6A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216ZM4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5Z" />

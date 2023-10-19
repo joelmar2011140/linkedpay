@@ -44,7 +44,7 @@ export default function FormularioContactos() {
           <Input name='nome' type='text' value={formulario.nome} label='Nome Completo' onChange={(e: ChangeEvent<HTMLInputElement>) => handleChange('input', e)} />          
           <Input name='email' type='email' value={formulario.email} label='Email' onChange={(e: ChangeEvent<HTMLInputElement>) => handleChange('input', e)} />
           <TextArea value={formulario.mensagem} label='Mensagem'  name='mensagem' onChange={(e: ChangeEvent<HTMLTextAreaElement>) => handleChange('input', e)} />
-          <button onClick={handleEmail} className='w-full lg:w-1/2 mx-auto bg-blue-500 hover:bg-blue-700 text-white font-bold p-4 rounded focus:outline-none focus:shadow-outline'>Aplicar agora</button>
+          <button onClick={handleEmail} className='justse w-full lg:w-1/2 mx-auto bg-blue-500 hover:bg-blue-700 text-white font-bold p-4 rounded focus:outline-none focus:shadow-outline'>Aplicar agora</button>
         </div>
       </div>
       </div>

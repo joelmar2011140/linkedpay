@@ -8,9 +8,9 @@ export default function AppPresentation() {
     {/* The App */}
     <div className="w-full h-full">
       <div className="flex p-6 mx-auto items-center justify-center w-full lg:w-[83%] flex-col-reverse lg:flex-row gap-8">
-        <div className="flex flex-col w-full lg:w-[50%] ">
-          <h1 className="text-3xl text-slate-700 font-semibold text-start  mb-22  md:text-5xl">Pagamentos num só clique</h1>
-          <h1 className="text-2xl mt-12 text-slate-700 font-bold text-start  mb-4 leading-normal md:text-3xl">Finanças digitais que se adaptam à sua vida</h1>
+        <div className="flex flex-col gap-2 lg:gap-4 w-full lg:w-[50%] ">
+          <h1 className="text-2xl text-slate-700 font-semibold text-start text-center mb-2 lg:mb-22  lg:text-5xl">Pagamentos num só clique</h1>
+          <h1 className="text-base mt-12 text-slate-700 font-bold text-start  mb-4 leading-normal lg:text-3xl">Finanças digitais que se adaptam à sua vida</h1>
           <p className="text-start text-base md:text-lg leading-relaxed">Estamos aqui para tornar a sua experiência de pagamento gratificante e conveniente. Transfira dinheiro, pague as suas contas, compras e ganhe dinheiro com a LPay.</p>
           <div className="flex justify-center lg:items-center lg:justify-start mt-6">
             <a
