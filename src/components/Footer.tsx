@@ -114,7 +114,7 @@ export default function Footer() {
           </div>
           <div className="w-full text-center lg:text-justify text-[#f3f4fe] p-4 flex flex-col gap-2 items-start justify-start">
              <h1 className="text-white text-base lg:text-xl">Ajuda</h1>
-             <a href='malito:info@linkedpay.co.ao' className="text-white text-start font-semibold">Entrar em contacto</a>
+             <a href='/aempresa/contactos' className="text-white text-start font-semibold">Entrar em contacto</a>
              <Link href='/faqs' className="text-white font-semibold">Perguntas frequentes</Link>
              
           </div>

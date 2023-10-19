@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image"
 import Link from "next/link"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 
 
 export default function Header() {
@@ -20,6 +20,7 @@ export default function Header() {
     setShowCollapse(false)
     setShowCollapse1(!showCollapse1)
   }
+
 
   return (
     <div
