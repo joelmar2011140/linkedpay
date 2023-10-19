@@ -5,9 +5,9 @@ import Link from 'next/link'
 export default function NotFoundPage() {
   return (
     <div className='w-full h-full lg:h-screen  p-4 flex flex-col items-center justify-center lg:justify-around'>
-      <div className="mx-auto flex items-center w-full lg:w-[83%] justify-center flex-col lg:flex-row gap-8 p-4">
+      <div className="mx-auto flex items-center w-full lg:w-[83%] justify-center flex-col-reverse lg:flex-row gap-8 p-4">
         
-      <div className=" flex gap-4 flex-col items-start justify-center w-full lg:w-[50%]">
+      <div className=" flex gap-4 flex-col items-center lg:items-start justify-center w-full lg:w-[50%]">
       <h1 className="text-2xl lg:text-start text-center lg:text-6xl text-slate-700 font-bold mb-4 leading-normal">ERRO 404</h1>
           <h1 className="text-2xl lg:text-start text-center lg:text-4xl text-slate-700 font-bold mb-4 leading-normal">OOOOOppsssss</h1>
           <h3 className="text-2xl lg:text-start text-center lg:text-4xl text-slate-700 font-bold mb-4 leading-normal">Página não encontrada</h3>

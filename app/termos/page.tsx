@@ -1,6 +1,5 @@
 import { Metadata } from "next"
 
-
 export const metadata: Metadata = {
   title: 'LinkedPay | Termos e condições',
   description: 'LinkedPay é uma carteira digital rápida e segura de Angola. Baixe agora para gerenciar suas finanças diretamente do seu celular.',

@@ -7,7 +7,7 @@ export default function AppPresentation() {
     <FadeRight>
     {/* The App */}
     <div className="w-full h-full">
-      <div className="flex p-6 mx-auto items-center justify-center w-full lg:w-[83%] flex-col lg:flex-row gap-8">
+      <div className="flex p-6 mx-auto items-center justify-center w-full lg:w-[83%] flex-col-reverse lg:flex-row gap-8">
         <div className="flex flex-col w-full lg:w-[50%] ">
           <h1 className="text-3xl text-slate-700 font-semibold text-start  mb-22  md:text-5xl">Pagamentos num só clique</h1>
           <h1 className="text-2xl mt-12 text-slate-700 font-bold text-start  mb-4 leading-normal md:text-3xl">Finanças digitais que se adaptam à sua vida</h1>
