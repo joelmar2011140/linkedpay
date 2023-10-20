@@ -8,21 +8,21 @@ export const metadata: Metadata = {
 
 export default function TermosPage() {
   return (
-    <div>
-      <div className="p-4 min-h-screen  w-10/12 mx-auto mb-12">
-        <h1 className="text-2xl font-bold mb-4 text-center">TERMOS E CONDIÇÕES DA LINKEDPAY</h1>
+    <div className='w-full h-full p-4 flex flex-col items-center justify-center'>
+      <div className="mx-auto text-justify flex w-full lg:w-[80%] justify-center flex-col gap-8 p-4">
+        <h1 className="text-xl lg:text-2xl font-bold mb-4  text-center">TERMOS E CONDIÇÕES DA LINKEDPAY</h1>
         <p className="mb-4">Estes Termos e Condições entraram em vigor em 10 de novembro de 2022.</p>
         <p className="mb-4">Estes Termos e Condições foram actualizados pela última vez em 07 de Junho de 2023.</p>
-        <p className="mb-4 leading-loose text-start">
+        <p className="mb-4 leading-loose text-justify">
         A LINKEDPAY, sua empresa-mãe, subsidiárias, sucessoras, cessionárias e afiliadas (&quot;LinkedPay&quot;, &quot;nós&quot; &quot;nosso&quot; ou &quot;nos&quot;) fornecem acesso e uso do  LinkedPay.co.ao, um site de propriedade e operado pela LinkedPay, bem como todos e quaisquer outros sites, sites optimizados para dispositivos móveis, aplicativos móveis, subdomínios de propriedade, operados ou controlados pelo  LinkedPay  (o &quot;Site&quot;, &quot;LinkedPay&quot;  Aplicação &quot;LPay&quot;), juntamente com o conteúdo, software, serviços móveis, produtos financeiros e funcionalidades oferecidos no ou através do Website e da  Aplicação da LinkedPay &quot; LPay&quot;(colectivamente, os &quot;Serviços&quot;).
         </p>
         <p className="mb-4 leading-loose text-start">
         Estes Termos e Condições (os &quot;Termos&quot;), bem como todos e quaisquer termos e condições específicos para cada um dos nossos produtos e serviços, conforme alterados periodicamente, representam um acordo entre si (&quot;si&quot;, &quot;seu&quot; ou colectivamente com outros usuários, &quot;Usuários&quot;) e a LinkedPay e  rege seu uso e acesso aos nossos Serviços. 
         </p>
-        <p className="mb-4 leading-loose text-start font-bold">
+        <p className="mb-4 leading-loose text-start lg:text-justify  font-bold">
         LEIA ESTES TERMOS CUIDADOSAMENTE PARA GARANTIR QUE COMPREENDE CADA DISPOSIÇÃO. AO DAR O SEU OTP AO AGENTE, OU DE OUTRA FORMA USAR OS SERVIÇOS, SEJA COMO CONVIDADO OU USUÁRIO REGISTADO, OU DE OUTRA FORMA ACEITAR ESTES TERMOS, ESTÁ A INDICAR QUE LEU E ENTENDEU OS TERMOS, E CONCORDA EM FICAR VINCULADO POR ESTES TERMOS, NOSSA POLÍTICA DE PRIVACIDADE E COOKIES E TODAS AS MODIFICAÇÕES FUTURAS A ESTES TERMOS, BEM COMO À COLECTA E USO DE SUAS INFORMAÇÕES, CONFORME ESTABELECIDO NA NOSSA POLÍTICA DE PRIVACIDADE E COOKIES.
         </p>
-        <h1 className="text-2xl font-bold mb-4">1. DEFINIÇÃO</h1>
+        <h1 className="text-xl lg:text-2xl font-bold mb-4">1. DEFINIÇÃO</h1>
         <ol className="leading-loose text-start">
           <li>1.1 &quot;LinkedPay&quot; significa a organização/plataforma de pagamentos móveis licenciada pelo Banco Nacional de Angola (&quot;BNA&quot;). </li>
           <br />
@@ -44,11 +44,11 @@ export default function TermosPage() {
           <br />
           <li>1.10 &quot;Direitos de Propriedade Intelectual&quot; significa todos os direitos de propriedade industrial e intelectual da LinkedPay  (conforme o contexto fornece), registados ou não registados, incluindo, sem limitação, patentes, marcas comerciais e marcas de serviço, designs e direitos autorais e quaisquer aplicativos para qualquer ou em qualquer parte do mundo, e os direitos autorais em todos os desenhos, planos, especificações, designs e software de computador de propriedade ou licenciado para a LinkedPay  (conforme o contexto prevê) e utilizados em, ou para os fins do seu negócio, e todo o Know-how e informações confidenciais assim possuídas e utilizadas.</li>
         </ol>
-        <h1 className="text-2xl font-bold mb-4">2. CONSENTIMENTO PARA ESTES TERMOS</h1>
+        <h1 className="text-xl lg:text-2xl font-bold mb-4">2. CONSENTIMENTO PARA ESTES TERMOS</h1>
         <p className="mb-4 leading-normal text-start">
         Ao aceder ou utilizar os Serviços, concorda com os nossos Termos. Além disso, reconhece que leu, compreendeu e concordou em estar vinculado pelos termos e condições descritos nestes Termos e em cumprir todos os nossos termos de utilização e acordos aplicáveis de prestadores de serviços terceiros. Além disso, concorda que nossos provedores de serviços terceirizados são terceiros beneficiários das disposições aplicáveis destes Termos, com todos os direitos de aplicar tais disposições como se tais provedores de Serviços fossem parte destes Termos.
         </p>
-        <h1 className="text-2xl font-bold mb-4">3. OS SERVIÇOS QUE PRESTAMOS</h1>
+        <h1 className="text-xl lg:text-2xl font-bold mb-4">3. OS SERVIÇOS QUE PRESTAMOS</h1>
         <ol className="leading-loose text-start">
           <li>3.1 O Serviço da Conta LinkedPay . </li>
           <br />
@@ -70,7 +70,7 @@ export default function TermosPage() {
           <br />
           <li>3.4 Todas as descrições de produtos e Serviços propostos são baseadas em suposições (que estão sujeitas a alterações) e não deve confiar na disponibilidade ou funcionalidade de produtos ou Serviços até que eles sejam realmente oferecidos através do Site ou da Aplicação LPay. Reservamo-nos o direito, a nosso exclusivo critério, de determinar como o registo e outras promoções serão concedidas. Esta determinação inclui, sem limitação, o âmbito, a natureza e o calendário de todos esses prémios.</li>
         </ol>
-        <h1 className="text-2xl font-bold mb-4">4. AS CONDIÇÕES DE UTILIZAÇÃO DOS NOSSOS SERVIÇOS</h1>
+        <h1 className="text-xl lg:text-2xl font-bold mb-4">4. AS CONDIÇÕES DE UTILIZAÇÃO DOS NOSSOS SERVIÇOS</h1>
         <ol className="leading-loose text-start">
           <h2>Para aceder e utilizar os nossos Serviços, deve:</h2>
           <br />
@@ -84,7 +84,7 @@ export default function TermosPage() {
           <br />
           <li>4.5 prometem e garantem que apenas acede e utiliza os nossos Serviços por conta própria. A LinkedPay não será responsável por qualquer operação de terceiros, a menos que com a confirmação por escrito acordada por ambas as partes.</li>
         </ol>
-        <h1 className="text-2xl font-bold mb-4">5. PROCEDIMENTOS ENVOLVIDOS NA UTILIZAÇÃO DOS SERVIÇOS DA CONTA LINKEDPAY </h1>
+        <h1 className="text-xl lg:text-2xl font-bold mb-4">5. PROCEDIMENTOS ENVOLVIDOS NA UTILIZAÇÃO DOS SERVIÇOS DA CONTA LINKEDPAY </h1>
         <ol className="leading-loose text-start">
           <li>5.1 Adicionar fontes de financiamento à sua conta</li>
           <br />
@@ -117,7 +117,7 @@ export default function TermosPage() {
           <li>5.2.5 A sua Conta será creditada com qualquer depósito feito nela, e os fundos estarão disponíveis para seu uso assim que a transacção for aprovada.</li>
         </ol>
 
-        <h1 className="text-2xl font-bold mb-4">6. TERMOS ENVOLVIDOS NA UTILIZAÇÃO DOS SERVIÇOS DO QR CARD</h1>
+        <h1 className="text-xl lg:text-2xl font-bold mb-4">6. TERMOS ENVOLVIDOS NA UTILIZAÇÃO DOS SERVIÇOS DO QR CARD</h1>
         <ol className="leading-loose text-start">
           <li>
             6.1 Pode obter um QRCode do Agente. Para o registo do QRCode, deverá 
@@ -145,7 +145,7 @@ export default function TermosPage() {
           <li>6.9 Se, infelizmente, perder o seu QRCode, deverá comunicar a perda do QRCode contactando o serviço de apoio ao cliente o mais rapidamente possível. A LinkedPay não será responsável se você não notificar imediatamente a LinkedPay das circunstâncias acima. Depois de comunicar a perda do seu QRCode, não poderá continuar a depositar, levantar ou transferir fundos quando digitalizar o QRCode e introduzir o número do cartão no Agente. Também não poderá utilizar o número do cartão para depósitos NIBSS. A perda do QRCode não afectará o uso da sua conta LinkedPay. Pode solicitar a reemissão de um QRCode através do Agente, ou entrando em contato directamente com  a LinkedPay, a reemissão  está sujeita a taxas de reemissão que serão notificadas pela LinkedPay.</li>
         </ol>
 
-        <h1 className="text-2xl font-bold mb-4">7. PROCEDIMENTOS ENVOLVIDOS NA UTILIZAÇÃO DOS SERVIÇOS DE PAGAMENTO COM TRANSFERÊNCIA</h1>
+        <h1 className="text-xl lg:text-2xl font-bold mb-4">7. PROCEDIMENTOS ENVOLVIDOS NA UTILIZAÇÃO DOS SERVIÇOS DE PAGAMENTO COM TRANSFERÊNCIA</h1>
         <ol className="leading-loose text-start">
           <li>7.1 Pode solicitar o serviço Pagamento por transferência-</li>
           <br />
@@ -162,7 +162,7 @@ export default function TermosPage() {
           <li>7.5 A LinkedPay reserva-se o direito de suspender temporariamente o seu serviço Pagamento por transferência a qualquer momento se acreditarmos que existe um risco.</li>
         </ol>
 
-        <h1 className="text-2xl font-bold mb-4">8. NÍVEL KYC E LIMITES DE TRANSACÇÃO APLICÁVEIS</h1>
+        <h1 className="text-xl lg:text-2xl font-bold mb-4">8. NÍVEL KYC E LIMITES DE TRANSACÇÃO APLICÁVEIS</h1>
         <ol className="leading-loose text-start">
           <li>8.1 A tabela abaixo descreve a classificação de clientes adoptada pela LinkedPay ao longo dos níveis de KYC e os limites de transacção aplicáveis. Não deve retirar, transferir ou fazer quaisquer pagamentos que, no total, excedam qualquer um dos limites por transacção ou diários definidos para sua categoria. Caso tente exceder os limites aplicáveis, as suas transacções serão recusadas.</li>
           <br />
@@ -274,7 +274,7 @@ export default function TermosPage() {
           <li>8.6 As receitas de suspeitas de transacções fraudulentas ou de lavagem de dinheiro serão mantidas pela LinkedPay enquanto se aguarda uma decisão interna ou judicial, regulatória ou administrativa.</li>
         </ol>
 
-        <h1 className="text-2xl font-bold mb-4">9. OS PROGRAMAS DE FIDELIDADE DA LINKEDPAY</h1>
+        <h1 className="text-xl lg:text-2xl font-bold mb-4">9. OS PROGRAMAS DE FIDELIDADE DA LINKEDPAY</h1>
         <ol className="leading-loose text-start">
           <li>
           9.1 Linked Points&quot;, é um programa de fidelidade da  Aplicação LPay que  permite que  os clientes da LinkedPay recebam pontos quando suas transacções se qualificam para tais pontos ou completando certas actividades dentro da Aplicação LPay  , conforme aconselhado pela LinkedPay de tempos  em tempos.
@@ -302,10 +302,10 @@ export default function TermosPage() {
           <br />
           <li>9.12 A data de expiração dos LinkedPoints será comunicada e divulgada aos Utilizadores periodicamente.</li>
         </ol>
-        <h1 className="text-2xl font-bold mb-4">10. SEGURO DOS FUNDOS DEPOSITADOS</h1>
+        <h1 className="text-xl lg:text-2xl font-bold mb-4">10. SEGURO DOS FUNDOS DEPOSITADOS</h1>
         <p className="mb-4 leading-loose text-start">Salvo indicação em contrário, todos os fundos na sua Conta LinkedPay serão segurados até ao nível máximo de cobertura para depositantes de acordo com o Depósito Angola do Standard Bank.</p>
 
-        <h1 className="text-2xl font-bold mb-4">11. REGRAS APLICÁVEIS A TRANSACÇÕES COMERCIAIS E SITES DE TERCEIROS</h1>
+        <h1 className="text-xl lg:text-2xl font-bold mb-4">11. REGRAS APLICÁVEIS A TRANSACÇÕES COMERCIAIS E SITES DE TERCEIROS</h1>
         <ol className="leading-loose text-start">
           <li>
           11.1 Ao fazer um pagamento a qualquer pessoa ou entidade em troca de bens ou serviços (doravante como o &quot;Comerciante&quot;) na LinkedPay, você será obrigado a confirmar a transacção. Neste momento, também poderá ser-lhe pedido que introduza a sua palavra-passe ou PIN, dependendo do canal. Ao introduzir a sua palavra-passe ou PIN para confirmar a transacção, concorda e confirma que autorizou a transacção. Você não pode reverter ou cancelar directamente qualquer pagamento depois que ele tiver sido aprovado por si. Para o Utilizador do QRCode, pode dirigir-se ao Agente para o pagamento e ser-lhe-á pedido que forneça a sua OTP. Ao fornecer a sua OTP ao Agente, autoriza o Agente a depositar, levantar, transferir e Pagar Contas em seu nome, caso em que a cláusula 5.2 e a cláusula 6 continuarão a ser aplicáveis.
@@ -323,10 +323,10 @@ export default function TermosPage() {
         </ol>
         <p className="mb-4 leading-loose text-start">Reconhece e aceita que, quando o Aplicação LPay contém links, portais de registo, interfaces com outros sites, recursos, produtos e serviços fornecidos por terceiros, estes são fornecidos apenas como cortesia.  A LinkedPay não tem controlo sobre sites, recursos, produtos ou serviços desses terceiros, e concorda ainda em renunciar a todas e quaisquer reivindicações e direitos contra  a LinkedPay em relação a qualquer perda ou dano que possa incorrer como resultado do seu uso dos Serviços de Terceiros.</p>
 
-        <h1 className="text-2xl font-bold mb-4">12. COMO TRATAMOS OS SEUS DADOS PESSOAIS</h1>
+        <h1 className="text-xl lg:text-2xl font-bold mb-4">12. COMO TRATAMOS OS SEUS DADOS PESSOAIS</h1>
         <p className="mb-4 leading-loose text-start">A LinkedPay respeita e está empenhado em proteger a sua privacidade. Entenda que, ao aceder ou usar os Serviços e/ou enviar suas Informações de Usuário por meio dos Serviços, concorda com a colher, uso, armazenamento e divulgação de suas informações de usuário, conforme estabelecido em nossa Política de Privacidade e Cookies. Consulte a Política de Privacidade e Cookies completa no nosso website.</p>
 
-        <h1 className="text-2xl font-bold mb-4">13. AS MEDIDAS DE SEGURANÇA QUE IMPLEMENTAMOS PARA A SUA CONTA</h1>
+        <h1 className="text-xl lg:text-2xl font-bold mb-4">13. AS MEDIDAS DE SEGURANÇA QUE IMPLEMENTAMOS PARA A SUA CONTA</h1>
         <ol className="leading-loose text-start">
           <li>
           13.1 Conta LinkedPay 
@@ -355,10 +355,10 @@ export default function TermosPage() {
           <li>13.6 Preocupamo-nos com a integridade e segurança das suas Informações de Utilizador. Implementamos medidas técnicas e organizacionais comercialmente razoáveis projectadas para proteger suas Informações do Usuário contra perda acidental e acesso, uso, alteração ou divulgação não autorizados. No entanto, reconhece e concorda que, apesar das nossas medidas de segurança razoáveis, não podemos garantir que as comunicações electrónicas pela Internet serão 100% seguras e que terceiros não autorizados nunca serão capazes de derrotar essas medidas ou usar suas Informações do Usuário para fins impróprios. Reconhece que não tem nenhuma obrigação de usar os Serviços e que fornece quaisquer informações pessoais ou confidenciais para usar os Serviços por sua conta e risco.</li>
         </ol>
 
-        <h1 className="text-2xl font-bold mb-4">14. PROPRIEDADE DOS DIREITOS DE PROPRIEDADE INTELECTUAL DO CONTEÚDO EM TODAS AS PLATAFORMAS LINKEDPAY </h1>
+        <h1 className="text-xl lg:text-2xl font-bold mb-4">14. PROPRIEDADE DOS DIREITOS DE PROPRIEDADE INTELECTUAL DO CONTEÚDO EM TODAS AS PLATAFORMAS LINKEDPAY </h1>
         <p className="mb-4 leading-loose text-start">Reconhece e concorda que o conteúdo, incluindo, sem limitação, texto, software, música, som, fotografias, vídeo, gráficos, imagens, logotipos, ícones de botões, conteúdo editorial, avisos, design, compilação, tradução magnética, conversão digital, software (incluindo, sem limitação, programas de computador baseados em HTML), outros materiais e outras informações apresentadas a si através dos Serviços ou outros assuntos relacionados aos Serviços (colectivamente &quot;Conteúdo&quot;),  estão protegidos por direitos autorais, marcas comerciais e outros direitos de propriedade (incluindo, mas não limitado a, propriedade intelectual). Só tem permissão para usar este Conteúdo conforme expressamente autorizado pela LinkedPay ou pelos Serviços. Não adquire direitos de propriedade sobre qualquer Conteúdo visualizado através do Website/Aplicação ou qualquer licença expressa ou implícita da nossa propriedade intelectual ou da propriedade intelectual dos nossos licenciantes. O uso do Conteúdo que não seja expressamente permitido por estes Termos é estritamente proibido. A publicação de informações ou materiais no Website ou Aplicação não constitui uma renúncia a qualquer direito sobre tais informações e materiais.</p>
 
-        <h1 className="text-2xl font-bold mb-4">15. GESTÃO DO CONTEÚDO DO UTILIZADOR</h1>
+        <h1 className="text-xl lg:text-2xl font-bold mb-4">15. GESTÃO DO CONTEÚDO DO UTILIZADOR</h1>
         <p className="mb-4 leading-loose text-start">Os Serviços podem permitir que envie conteúdo, envie e-mails e outras comunicações e forneça outras informações para publicação ou distribuição a terceiros (coletivamente, &quot;Conteúdo do Usuário&quot;). Qualquer Conteúdo de Utilizador não deve ser ilegal, ameaçador, obsceno, racista, difamatório, calunioso, pornográfico, infrator dos direitos de propriedade intelectual, promoção de actividade ilegal ou danos a grupos e/ou indivíduos, invasivo da privacidade, propositadamente falso ou de outra forma prejudicial a terceiros, ou censurável e não deve consistir ou conter software, vírus informáticos, solicitação comercial, campanhas políticas,  cartas em cadeia, correspondências em massa ou qualquer forma de &quot;spam&quot;. Se enviar Conteúdo de Utilizador, e salvo indicação em contrário, concede-nos um direito não exclusivo, perpétuo, isento de royalties, irrevogável e totalmente SUB licenciável (através de vários níveis) para utilizar, modificar, reproduzir, adaptar, traduzir, publicar, criar trabalhos derivados, distribuir, exibir e explorar de outra forma esse Conteúdo de Utilizador em todo o mundo em qualquer meio. Nós não assumimos nenhuma responsabilidade por qualquer Conteúdo de Usuário enviado por você ou qualquer outro usuário ou terceiro. Reconhece que a sua divulgação é gratuita, não solicitada e sem restrições; e não colocará a LinkedPay sob qualquer obrigação fiduciária ou outra. Reconhece ainda que, ao aceitar seu envio, a LinkedPay  não renuncia a quaisquer direitos de usar ideias semelhantes ou relacionadas previamente conhecidas pela LinkedPay, ou desenvolvidas por seus executivos, funcionários, agentes ou contratados, ou obtidas de outras fontes que não seja por si.</p>
 
         <h1 className="text-2xl font-bold mb-4">16. CONSENTIMENTO</h1>
@@ -369,13 +369,13 @@ Consentimento explicitamente para que a LinkedPay  possa usar os seus dados pess
 Reconhece que o consentimento acima descrito pode ser retirado a qualquer momento (sem dar motivo) enviando um e-mail para suporte@LinkedPay.co.ao e +244 945291843.
 </p>
 
-<h1 className="text-2xl font-bold mb-4">17. RESTRIÇÕES À UTILIZAÇÃO DOS SERVIÇOS</h1>
+<h1 className="text-xl lg:text-2xl font-bold mb-4">17. RESTRIÇÕES À UTILIZAÇÃO DOS SERVIÇOS</h1>
 <p className="mb-4 leading-loose text-start">A visualização, impressão ou download de qualquer conteúdo, gráfico, forma ou documento do site ou aplicativo concede a si apenas um direito limitado e não exclusivo de uso, exclusivamente por si para seu próprio uso pessoal e não para republicação, distribuição, cessão, sublicença, venda, preparação de trabalhos derivados, benefício de qualquer terceiro ou outro uso. Nenhuma parte de qualquer conteúdo, forma ou documento pode ser reproduzida de qualquer forma ou incorporada em qualquer sistema de recuperação de informação, electrónico ou mecânico, excepto para o seu uso pessoal (mas não para revenda ou redistribuição). Concorda em não se envolver em: (a) copiar, modificar, distribuir ou divulgar qualquer parte dos Serviços em qualquer meio, incluindo, sem limitação, por qualquer &quot;raspagem&quot; automatizada ou não automatizada ou criação de qualquer produto derivado; (b) recolher ou recolher quaisquer Informações do Utilizador, incluindo, sem limitação, nomes de contas dos Serviços; (c) fazer-se passar por outra pessoa ou entidade ou de outra forma declarar falsamente ou deturpar a sua identidade ou afiliação com uma pessoa ou entidade, conduzir fraudes, ocultar ou tentar ocultar a sua identidade; (d) interferir com o bom funcionamento dos Serviços; (e) aceder a qualquer conteúdo nos Serviços através de qualquer tecnologia ou meios que não os fornecidos ou autorizados pelos Serviços; (f) desmontar, descompilar ou fazer engenharia inversa dos Serviços ou de qualquer parte dos Serviços ou de outra forma procurar obter o código-fonte dos Serviços, excepto na medida em que tal restrição seja expressamente proibida por Lei; (g) usar os Serviços de qualquer forma ilegal, prejudicial, fraudulenta, enganosa, ameaçadora, assediante, difamatória, obscena ou de outra forma censurável, conforme possamos determinar a nosso exclusivo critério; ou (h) pôr em risco a segurança da sua Conta de Utilizador ou das Contas de quaisquer outros utilizadores.</p>
 
-<h1 className="text-2xl font-bold mb-4">18. INDEMNIZAÇÕES APLICÁVEIS</h1>
+<h1 className="text-xl lg:text-2xl font-bold mb-4">18. INDEMNIZAÇÕES APLICÁVEIS</h1>
 <p className="mb-4 leading-loose text-start">Além de qualquer outra cláusula de indemnização fornecida nestes Termos, concorda em indemnizar, isentar de responsabilidade e reembolsar a LinkedPay, suas afiliadas, seus agentes, licenciadores, fornecedores, contratados e prestadores de serviços terceirizados, e seus respectivos funcionários, membros e directores e (coletivamente &quot;Partes Indemnizadas&quot;) de e contra todas e quaisquer reivindicações, perdas, processos, danos (reais e consequênciais), obrigações,  penalidades, quaisquer perdas decorrentes da perda ou roubo das suas Informações de Utilizador ou do seu dispositivo móvel ou de transacções não autorizadas ou fraudulentas associadas à sua Conta de Utilizador, multas, responsabilidades, acordos, custos ou dívidas e despesas (incluindo, sem limitação, custos judiciais e honorários advocatórios razoáveis) (&quot;Perdas&quot;) decorrentes ou de alguma forma relacionados com quaisquer reclamações de terceiros relacionadas com a sua utilização dos Serviços,  violação destes Termos, lei aplicável ou quaisquer direitos de terceiros, ou sua fraude ou má conduta intencional. Esta obrigação de defesa e indemnização subsistirá a qualquer rescisão destes Termos e à sua utilização dos Serviços.</p>
 
-<h1 className="text-2xl font-bold mb-4">19. PROCEDIMENTOS DE SUSPENSÃO/ENCERRAMENTO DE CONTAS</h1>
+<h1 className="text-xl lg:text-2xl font-bold mb-4">19. PROCEDIMENTOS DE SUSPENSÃO/ENCERRAMENTO DE CONTAS</h1>
 <ol className="leading-loose text-start">
           <li>19.1 Concorda que, na medida permitida pela lei aplicável, podemos, a nosso exclusivo critério e sem responsabilidade perante a si, encerrar (ou suspender o acesso a) seu uso dos Serviços, Conteúdo ou sua Conta por qualquer motivo, incluindo, mas não limitado a sua violação destes Termos.</li>
           <br />
@@ -384,17 +384,17 @@ Reconhece que o consentimento acima descrito pode ser retirado a qualquer moment
           <li>19.3 Em qualquer caso, quando sua Conta LinkedPay estiver fechada por qualquer motivo e tiver um saldo de fundos poderá fazer uma solicitação ao nosso atendimento ao cliente para seu saldo, e isso será disponibilizado para si para retirada, barrando quaisquer disposições legais ou regulamentares que impeçam tal retirada.</li>
         </ol>
 
-        <h1 className="text-2xl font-bold mb-4">20. TERMINAR A SUA UTILIZAÇÃO DO NOSSO SERVIÇO</h1>
+        <h1 className="text-xl lg:text-2xl font-bold mb-4">20. TERMINAR A SUA UTILIZAÇÃO DO NOSSO SERVIÇO</h1>
 <p className="mb-4 leading-loose text-start">Pode encerrar seu uso de nossos Serviços a qualquer momento mediante notificação a LinkedPay  e de acordo com as directivas fornecidas pela LinkedPay. Entre em contacto com a LinkedPay para saber o período de aviso e os requisitos aplicáveis.</p>
 
-<h1 className="text-2xl font-bold mb-4">21. COMO ENTRAR EM CONTATO COM A LINKEDPAY</h1>
+<h1 className="text-xl lg:text-2xl font-bold mb-4">21. COMO ENTRAR EM CONTATO COM A LINKEDPAY</h1>
 <p className="mb-4 leading-loose text-start">Todos os avisos a LinkedPay ou a si, conforme o caso, devem ser feitos por escrito e devem ser feitos via e-mail (suporte@LinkedPay.co.ao) usando seu e-mail e endereço fornecidos por si. O atendimento ao cliente está disponível no número de telefone: +244 945291843.</p>
 
 
-<h1 className="text-2xl font-bold mb-4">22. ALTERAR ESTES TERMOS</h1>
+<h1 className="text-xl lg:text-2xl font-bold mb-4">22. ALTERAR ESTES TERMOS</h1>
 <p className="mb-4 leading-loose text-start">A LinkedPay pode publicar avisos, links ou SMS para avisos por meio de seus Serviços para informá-lo sobre alterações nos Termos, nos Serviços ou em outros assuntos importantes.</p>
 
-<h1 className="text-2xl font-bold mb-4">23. OUTRAS CONSIDERAÇÕES</h1>
+<h1 className="text-xl lg:text-2xl font-bold mb-4">23. OUTRAS CONSIDERAÇÕES</h1>
 <ol className="leading-loose text-start">
           <li>23.1 Lei Aplicável. Estes Termos são feitos sob e serão regidos e interpretados de acordo com as leis da República de Angola, sem dar efeito a quaisquer princípios que preveem a aplicação da lei de outra jurisdição.</li>
           <br />

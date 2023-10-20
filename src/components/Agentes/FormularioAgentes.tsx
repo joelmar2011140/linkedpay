@@ -1,11 +1,14 @@
 'use client'
 import React, { ChangeEvent, useState } from 'react'
+import { useRouter } from 'next/navigation';
 import { toast } from 'react-toastify';
 import Input from '../Input'
 import Select from '../Select'
 import emailJs from '@emailjs/browser'
+import Link from 'next/link';
 
 export default function FormularioAgentes() {
+  const roteador = useRouter()
   const [disabled, setDisabled] = useState(false)
   const [formulario, setFormulario] = useState({ nome: '', email: '', telefone: '', provincia: '', municipio: '', comerciante: '', terminal: '' })
 
@@ -51,7 +54,7 @@ export default function FormularioAgentes() {
       return
     }
     
-    emailJs.send('service_en5h1ua', 'template_y5h7a93', { nome: formulario.nome, email: formulario.email, telefone: formulario.telefone, provincia: formulario.provincia, municipio: formulario.municipio, comerciante: formulario.comerciante, terminal: formulario.terminal, receptor: 'mwangolemarinho@gmail.com' }, 'zpsgcivB9G67hfXA0').then((sucesso) => {
+    emailJs.send('service_en5h1ua', 'template_y5h7a93', { nome: formulario.nome, email: formulario.email, telefone: formulario.telefone, provincia: formulario.provincia, municipio: formulario.municipio, comerciante: formulario.comerciante, terminal: formulario.terminal, receptor: 'info@linkedpay.co.ao' }, 'zpsgcivB9G67hfXA0').then((sucesso) => {
       toast('Email enviado com sucesso, será respondido(a) brevemente.', { position: 'top-right', type: 'success' })
       setFormulario({
         comerciante: '',
@@ -77,7 +80,8 @@ export default function FormularioAgentes() {
     <div className="mx-auto flex items-center  w-full lg:w-[83%] justify-center flex-col lg:justify-start lg:items-start gap-8 p-8">
     <div className='w-full lg:w-11/12 h-auto p-8  shadow-lg border rounded-lg lg:text-justify text-center mx-auto flex flex-col gap-6 justify-center items-center mb-12'>
         <h1 className="text-xl lg:text-2xl text-slate-700 font-bold mb-4 ">Faça dinheiro com a LinkedPay</h1>
-        <p className="text-base text-justify">Preencha o formulário abaixo e um dos membros da nossa equipa entrará em contacto consigo o mais rapidamente possível</p>
+        <p className="text-base text-center">Preencha o formulário abaixo e um dos membros da nossa equipa entrará em contacto consigo o mais rapidamente possível</p>
+        <Link href='termos/contrato-comerciantes' className='text-blue-600 underline font-semibold cursor-pointer'>TERMOS & CONDIÇÕES Contrato  de Comerciantes</Link>
         <div className='w-full p-6 lg:p-2 flex flex-col gap-6 mb-12 items-start justify-start'>
           <Input name='nome' type='text' value={formulario.nome} label='Nome Completo' onChange={(e: ChangeEvent<HTMLInputElement>) => handleChange('input', e)} />
           <div className='flex flex-col lg:flex-row w-full gap-2'>
