@@ -81,17 +81,15 @@ export default function FormularioAgentes() {
     <div className='w-full lg:w-11/12 h-auto p-8  shadow-lg border rounded-lg lg:text-justify text-center mx-auto flex flex-col gap-6 justify-center items-center mb-12'>
         <h1 className="text-xl lg:text-2xl text-slate-700 font-bold mb-4 ">Faça dinheiro com a LinkedPay</h1>
         <p className="text-base text-center">Preencha o formulário abaixo e um dos membros da nossa equipa entrará em contacto consigo o mais rapidamente possível</p>
-        <Link href='termos/contrato-comerciantes' className='text-blue-600 underline font-semibold cursor-pointer'>TERMOS & CONDIÇÕES Contrato  de Comerciantes</Link>
+        <Link href='termos/contrato-agentes' className='text-blue-600 underline font-semibold cursor-pointer'>TERMOS & CONDIÇÕES Contrato  de Agentes</Link>
         <div className='w-full p-6 lg:p-2 flex flex-col gap-6 mb-12 items-start justify-start'>
           <Input name='nome' type='text' value={formulario.nome} label='Nome Completo' onChange={(e: ChangeEvent<HTMLInputElement>) => handleChange('input', e)} />
           <div className='flex flex-col lg:flex-row w-full gap-2'>
             <Input name='email' type='email' value={formulario.email} label='Email' onChange={(e: ChangeEvent<HTMLInputElement>) => handleChange('input', e)} />
             <Input name='telefone' type='tel' value={formulario.telefone} label='Telefone' onChange={(e: ChangeEvent<HTMLInputElement>) => handleChange('input', e)} />
           </div>
-          <div className='flex flex-col lg:flex-row w-full gap-2'>
-            <Select value={formulario.comerciante} onChange={(e: ChangeEvent<HTMLSelectElement>) => handleChange('select', e)} name='comerciante' label='É comerciante ?' opcoes={[{ label: 'Sim', valor: 'Sim' }, { label: 'Não', valor: 'Não' }]} />
-            <Select value={formulario.terminal} onChange={(e: ChangeEvent<HTMLSelectElement>) => handleChange('select', e)} name='terminal' label='Possui um terminal ?' opcoes={[{ label: 'Sim', valor: 'Sim' }, { label: 'Não', valor: 'Não' }]} />
-          </div>
+          
+          <Select value={formulario.terminal} onChange={(e: ChangeEvent<HTMLSelectElement>) => handleChange('select', e)} name='terminal' label='Possui uma loja ?' opcoes={[{ label: 'Sim', valor: 'Sim' }, { label: 'Não', valor: 'Não' }]} />
           <div className='flex flex-col lg:flex-row w-full gap-2'>
             <Input value={formulario.provincia} name='provincia' type='text' label='Província' onChange={(e: ChangeEvent<HTMLInputElement>) => handleChange('input', e)} />
             <Input name='municipio' type='text' value={formulario.municipio} label='Município' onChange={(e: ChangeEvent<HTMLInputElement>) => handleChange('input', e)} />

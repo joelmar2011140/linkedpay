@@ -201,6 +201,30 @@ export default function Header() {
                       Agentes
                     </Link>
                   </li>
+                  <li className="relative group">
+                    <Link
+                      href="/comerciantes"
+                      className="
+                      ud-menu-scroll
+                      text-lg text-dark
+                      tracking-wide
+                      text-gray-700
+                      font-semibold
+                      lg:text-gray-700
+                      lg:group-hover:opacity-70
+                      lg:group-hover:text-gray-700
+                      group-hover:text-primary
+                      py-2
+                      lg:py-6 lg:inline-flex lg:px-0
+                      flex
+                      mx-8
+                      lg:mr-0 lg:ml-7
+                      xl:ml-12
+                    "
+                    >
+                      Comerciantes
+                    </Link>
+                  </li>
                   <li className="relative group submenu-item">
                     <a
                       className="
